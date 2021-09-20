@@ -47,9 +47,9 @@
 <details>
     <summary> Resumo da vídeo-aula 02</summary>
     <div align="center">
-      <img alt="" width="auto" src="https://github.com/HenriqueMAP/todolistyoutube/blob/master/Aula-2-Imagem-1.png?raw=true">
-      <img alt="" width="auto" src="https://github.com/HenriqueMAP/todolistyoutube/blob/master/Aula-2-Imagem-2.png?raw=true">
-      <img alt="" width="auto" src="https://github.com/HenriqueMAP/todolistyoutube/blob/master/Aula-2-Imagem-3.png?raw=true">
+      <img alt="" width="500" src="https://github.com/HenriqueMAP/todolistyoutube/blob/master/Aula-2-Imagem-1.png?raw=true">
+      <img alt="" width="250" src="https://github.com/HenriqueMAP/todolistyoutube/blob/master/Aula-2-Imagem-2.png?raw=true">
+      <img alt="" width="250" src="https://github.com/HenriqueMAP/todolistyoutube/blob/master/Aula-2-Imagem-3.png?raw=true">
     </div>
     <hr>
 </details>
