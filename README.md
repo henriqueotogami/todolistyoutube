@@ -65,6 +65,29 @@
 
 <hr>
 
+### Créditos
+
+- [x] [Foto de capa by Clay Banks | Unsplash - Photos for everyone;](https://unsplash.com/photos/oO6Gm16Cqcg)
+- [x] [Shields.io | Badges Info from Github](https://img.shields.io)
+- [x] [Alexandre Sanlim | Badges Tech](https://github.com/alexandresanlim/Badges4-README.md-Profile)
+
+<hr>
+
+### IDE: IntelliJ IDEA Community Edition
+
+#### Plugins da IDE
+
+- [Atom Material Icons](https://plugins.jetbrains.com/plugin/10044-atom-material-icons);
+- [Codota AI Autocomplete for Java](https://plugins.jetbrains.com/plugin/7638-codota-ai-autocomplete-for-java-and-javascript);
+- [GitToolBox](https://plugins.jetbrains.com/plugin/7499-gittoolbox);
+- [Material Theme UI](https://plugins.jetbrains.com/plugin/8006-material-theme-ui);
+- [Nyan Progress Bar](https://plugins.jetbrains.com/plugin/8575-nyan-progress-bar);
+- [One Dark Theme](https://plugins.jetbrains.com/plugin/11938-one-dark-theme);
+- [Rainbow Brackets](https://plugins.jetbrains.com/plugin/10080-rainbow-brackets);
+- [Tabnine AI Code Completion](https://plugins.jetbrains.com/plugin/12798-tabnine-ai-code-completion-js-java-python-ts-rust-go-php--more);
+
+<hr>
+
 > ### Caso você queira ajudar a melhorar este repositório, qualquer ajuda é bem vinda.
 
 - [x] Faça um **fork** deste repositório (https://github.com/HenriqueMAP/todolistyoutube/fork);
