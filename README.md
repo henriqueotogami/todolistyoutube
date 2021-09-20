@@ -9,7 +9,7 @@
 </div>
 <br>
 <div align="center">
-<img width="300" src="https://github.com/HenriqueMAP/todolistyoutube/blob/master/JAVA-Cover.jpg?raw=true">
+<img width="300" src="https://github.com/HenriqueMAP/todolistyoutube/blob/master/JAVA-Cover.png?raw=true">
 </div>
 <br>
 <div align="center">
