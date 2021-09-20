@@ -38,6 +38,39 @@
 - [x] Vídeo-aula 06: [Migrando o banco para o PostgreSQL e realizando Deploy no Heroku;]()
 <hr>
 
+### Resumos
+
+<details>
+    <summary> Resumo da vídeo-aula 01</summary>
+    <hr>
+</details>
+<details>
+    <summary> Resumo da vídeo-aula 02</summary>
+    <div align="center">
+      <img alt="" width="auto" src="https://github.com/HenriqueMAP/todolistyoutube/blob/master/Aula-2-Imagem-1.png?raw=true">
+      <img alt="" width="auto" src="https://github.com/HenriqueMAP/todolistyoutube/blob/master/Aula-2-Imagem-2.png?raw=true">
+      <img alt="" width="auto" src="https://github.com/HenriqueMAP/todolistyoutube/blob/master/Aula-2-Imagem-3.png?raw=true">
+    </div>
+    <hr>
+</details>
+<details>
+    <summary> Resumo da vídeo-aula 03</summary>
+    <hr>
+</details>
+<details>
+    <summary> Resumo da vídeo-aula 04</summary>
+    <hr>
+</details>
+<details>
+    <summary> Resumo da vídeo-aula 05</summary>
+    <hr>
+</details>
+<details>
+    <summary> Resumo da vídeo-aula 06</summary>
+</details>
+
+<hr>
+
 ### Tecnologias
 
 - [x] Maven;
@@ -51,6 +84,12 @@
 <hr>
 
 ### Dependências
+
+> As dependências listadas abaixo são obtidas a partir do site [Spring Initializr](https://start.spring.io).
+
+<div align="center">
+<img width="auto" src="https://github.com/HenriqueMAP/todolistyoutube/blob/master/Spring-initializr.png?raw=true">
+</div>
 
 - [x] Spring Web: 
 > Build web, including RESTFul, applications using Spring MVC. 
@@ -74,6 +113,8 @@
 <hr>
 
 ### IDE: IntelliJ IDEA Community Edition
+
+#### Sistema: MacOS Big Sur - Versão 11.6
 
 #### Plugins da IDE
 
