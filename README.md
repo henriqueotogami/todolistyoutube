@@ -51,11 +51,66 @@
       <img alt="" width="250" src="https://github.com/HenriqueMAP/todolistyoutube/blob/master/Aula-2-Imagem-2.png?raw=true">
       <img alt="" width="250" src="https://github.com/HenriqueMAP/todolistyoutube/blob/master/Aula-2-Imagem-3.png?raw=true">
     </div>
+
+> Após clicar no botão de "Run" na classe "TodolistyoutubeApplication", copiar o endereço URL informado no console `jdbc:h2:mem:todolistyoutube`, conforme imagem 2 mostrada acima.
+> 
+> Abrir o endereço `http://localhost:8080/h2-console` no navegador, e inserir o endereço copiado (mencionado acima) no campo JDBC URL, conforme imagem abaixo.
+
+<img alt="" width="500" src="https://github.com/HenriqueMAP/todolistyoutube/blob/master/Aula-2-localhost-8080-h2-console.png?raw=true">
     <hr>
 </details>
 <details>
     <summary> Resumo da vídeo-aula 03</summary>
-    <hr>
+
+> Utilizando o Postman como plataforma de desenvolvimento de `API`, através da URL `http://localhost:8080/api/v1/tasks`.
+>
+> Para criar a primeira tarefa, utilize o método `POST`. Após isso, selecione `Body` -> `raw` -> `JSON`, digite o código abaixo e clique no botão `SEND`:
+
+```json
+{
+"title": "Gravando o terceiro vídeo",
+"description":"Vídeo sobre criação e listagem de tarefas.",
+"deadLine": "2021-09-30"
+}
+```
+
+> O valor retornado no console do Postman, através do método `GET`, é mostrado abaixo:
+
+```json
+{
+    "id": 1,
+    "title": "Gravando o terceiro vídeo",
+    "description": "Vídeo sobre criação e listagem de tarefas.",
+    "deadLine": "2021-09-30T00:00:00.000+00:00",
+    "createdAt": "2021-09-21T22:34:04.228+00:00",
+    "updatedAt": "2021-09-21T22:34:04.228+00:00"
+}
+```
+
+<img alt="" width="500" src="https://github.com/HenriqueMAP/todolistyoutube/blob/master/Aula-3-Post-Task-Postman-localhost.png?raw=true">
+
+> Simulando erro, omitindo a informação de data no campo `deadLine`:
+
+<img alt="" width="500" src="https://github.com/HenriqueMAP/todolistyoutube/blob/master/Aula-3-Simulando-Erro-500.png?raw=true">
+<img alt="" width="500" src="https://github.com/HenriqueMAP/todolistyoutube/blob/master/Aula-3-Simulando-Erro-500-IntelliJ.png?raw=true">
+
+> Obtendo todas as tarefas criadas:
+
+<img alt="" width="500" src="https://github.com/HenriqueMAP/todolistyoutube/blob/master/Aula-3-getAllTasks.png?raw=true">
+
+> Obtendo tarefa por ID:
+
+<img alt="" width="500" src="https://github.com/HenriqueMAP/todolistyoutube/blob/master/Aula-3-getTaskById.png?raw=true">
+
+> Buscando todas as tarefas utilizando o `SELECT` na `H2 Database`:
+
+<img alt="" width="500" src="https://github.com/HenriqueMAP/todolistyoutube/blob/master/Aula-3-SELECT-H2-Database-AllTasks.png?raw=true">
+
+> Buscando somente as tarefas por `ID` utilizando o `SELECT` na `H2 Database`:
+
+<img alt="" width="500" src="https://github.com/HenriqueMAP/todolistyoutube/blob/master/Aula-3-SELECT-H2-Database-TaskById.png?raw=true">
+
+<hr>
 </details>
 <details>
     <summary> Resumo da vídeo-aula 04</summary>
