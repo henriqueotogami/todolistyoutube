@@ -46,21 +46,24 @@
 </details>
 <details>
     <summary> Resumo da vídeo-aula 02</summary>
+<br>
     <div align="center">
-      <img alt="" width="500" src="https://github.com/HenriqueMAP/todolistyoutube/blob/master/Aula-2-Imagem-1.png?raw=true">
-      <img alt="" width="250" src="https://github.com/HenriqueMAP/todolistyoutube/blob/master/Aula-2-Imagem-2.png?raw=true">
-      <img alt="" width="250" src="https://github.com/HenriqueMAP/todolistyoutube/blob/master/Aula-2-Imagem-3.png?raw=true">
+      <img target="_blank" alt="" width="500" src="https://github.com/HenriqueMAP/todolistyoutube/blob/master/Aula-2-Imagem-1.png?raw=true">
+      <img target="_blank" alt="" width="500" src="https://github.com/HenriqueMAP/todolistyoutube/blob/master/Aula-2-Imagem-2.png?raw=true">
+      <img target="_blank" alt="" width="500" src="https://github.com/HenriqueMAP/todolistyoutube/blob/master/Aula-2-Imagem-3.png?raw=true">
     </div>
+<br>
 
 > Após clicar no botão de "Run" na classe "TodolistyoutubeApplication", copiar o endereço URL informado no console `jdbc:h2:mem:todolistyoutube`, conforme imagem 2 mostrada acima.
 > 
 > Abrir o endereço `http://localhost:8080/h2-console` no navegador, e inserir o endereço copiado (mencionado acima) no campo JDBC URL, conforme imagem abaixo.
 
-<img alt="" width="500" src="https://github.com/HenriqueMAP/todolistyoutube/blob/master/Aula-2-localhost-8080-h2-console.png?raw=true">
+<img target="_blank" alt="" width="500" src="https://github.com/HenriqueMAP/todolistyoutube/blob/master/Aula-2-localhost-8080-h2-console.png?raw=true">
     <hr>
 </details>
 <details>
     <summary> Resumo da vídeo-aula 03</summary>
+<br>
 
 > Utilizando o Postman como plataforma de desenvolvimento de `API`, através da URL `http://localhost:8080/api/v1/tasks`.
 >
@@ -91,24 +94,24 @@
 
 > Simulando erro, omitindo a informação de data no campo `deadLine`:
 
-<img alt="" width="500" src="https://github.com/HenriqueMAP/todolistyoutube/blob/master/Aula-3-Simulando-Erro-500.png?raw=true">
-<img alt="" width="500" src="https://github.com/HenriqueMAP/todolistyoutube/blob/master/Aula-3-Simulando-Erro-500-IntelliJ.png?raw=true">
+<img target="_blank" alt="" width="500" src="https://github.com/HenriqueMAP/todolistyoutube/blob/master/Aula-3-Simulando-Erro-500.png?raw=true">
+<img target="_blank" alt="" width="500" src="https://github.com/HenriqueMAP/todolistyoutube/blob/master/Aula-3-Simulando-Erro-500-IntelliJ.png?raw=true">
 
 > Obtendo todas as tarefas criadas:
 
-<img alt="" width="500" src="https://github.com/HenriqueMAP/todolistyoutube/blob/master/Aula-3-getAllTasks.png?raw=true">
+<img target="_blank" alt="" width="500" src="https://github.com/HenriqueMAP/todolistyoutube/blob/master/Aula-3-getAllTasks.png?raw=true">
 
 > Obtendo tarefa por ID:
 
-<img alt="" width="500" src="https://github.com/HenriqueMAP/todolistyoutube/blob/master/Aula-3-getTaskById.png?raw=true">
+<img target="_blank" alt="" width="500" src="https://github.com/HenriqueMAP/todolistyoutube/blob/master/Aula-3-getTaskById.png?raw=true">
 
 > Buscando todas as tarefas utilizando o `SELECT` na `H2 Database`:
 
-<img alt="" width="500" src="https://github.com/HenriqueMAP/todolistyoutube/blob/master/Aula-3-SELECT-H2-Database-AllTasks.png?raw=true">
+<img target="_blank" alt="" width="500" src="https://github.com/HenriqueMAP/todolistyoutube/blob/master/Aula-3-SELECT-H2-Database-AllTasks.png?raw=true">
 
 > Buscando somente as tarefas por `ID` utilizando o `SELECT` na `H2 Database`:
 
-<img alt="" width="500" src="https://github.com/HenriqueMAP/todolistyoutube/blob/master/Aula-3-SELECT-H2-Database-TaskById.png?raw=true">
+<img target="_blank" alt="" width="500" src="https://github.com/HenriqueMAP/todolistyoutube/blob/master/Aula-3-SELECT-H2-Database-TaskById.png?raw=true">
 
 <hr>
 </details>
@@ -143,8 +146,9 @@
 > As dependências listadas abaixo são obtidas a partir do site [Spring Initializr](https://start.spring.io).
 
 <div align="center">
-<img width="auto" src="https://github.com/HenriqueMAP/todolistyoutube/blob/master/Spring-initializr.png?raw=true">
+<img target="_blank" width="auto" src="https://github.com/HenriqueMAP/todolistyoutube/blob/master/Spring-initializr.png?raw=true">
 </div>
+<br>
 
 - [x] Spring Web: 
 > Build web, including RESTFul, applications using Spring MVC. 
