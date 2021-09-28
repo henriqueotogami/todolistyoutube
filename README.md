@@ -32,8 +32,8 @@
 
 - [x] Vídeo-aula 01: [Introdução do projeto;](https://youtu.be/un7EgWqgNMs)
 - [x] Vídeo-aula 02: [Inicialização do projeto com Spring Initializr e tabela H2 Database;](https://youtu.be/x0QtRR0Gp40)
-- [x] Vídeo-aula 03: [Criando e listando as tarefas;]()
-- [x] Vídeo-aula 04: [Editando/atualizando e excluindo as tarefas;]()
+- [x] Vídeo-aula 03: [Criando e listando as tarefas (POST e GET);](https://youtu.be/fR1O_U7Wd-c)
+- [x] Vídeo-aula 04: [Editando/atualizando e excluindo as tarefas (PUT e DELETE);](https://youtu.be/jX6LAQQGunY)
 - [x] Vídeo-aula 05: [Documentando a aplicação com o Swagger;]()
 - [x] Vídeo-aula 06: [Migrando o banco para o PostgreSQL e realizando Deploy no Heroku;]()
 <hr>
@@ -117,6 +117,72 @@
 </details>
 <details>
     <summary> Resumo da vídeo-aula 04</summary>
+
+> Realizando a atualização (PUT) e exclusão  (DELETE) de tarefas da nossa aplicação.
+> 
+> Lembrando que é necessário incluir a tarefa no banco de dados a cada atualização do código, 
+> uma vez que o banco de dados atual não mantém o armazenamento das tarefas após ser desligado.
+> 
+> Isso será corrigido nas próximas aulas.
+
+> DELETE - Excluindo a tarefa do banco de dados:
+> 
+> > POST - Inserindo a tarefa:
+
+```json
+{
+    "id": 1,
+    "title": "Gravando o quarto vídeo (04 de 06)",
+    "description": "Vídeo sobre update e delete das tarefas.",
+    "deadLine": "2021-09-27T19:00:00.000+03:00"
+}
+```
+
+> > DELETE - Para esse método, o comando é vazio e, consequentemente, o retorno também:
+
+<img target="_blank" alt="" width="500" src="https://github.com/HenriqueMAP/todolistyoutube/blob/master/Aula-4-PUT-updateTaskById.png?raw=true">
+
+> PUT - Atualizando o título, a descrição e a data máxima da tarefa no banco de dados:
+> 
+> > POST - Inserindo a tarefa:
+
+```json
+{
+    "id": 1,
+    "title": "Gravando o quarto vídeo",
+    "description": "Vídeo sobre editar/atualizar e excluir as tarefas.",
+    "deadLine": "2021-10-05T00:00:00.000+00:00"
+}
+```
+
+> > PUT - Atualizando a tarefa:
+
+```json
+{
+    "id": 1,
+    "title": "Gravando o quarto vídeo (04 de 06)",
+    "description": "Vídeo sobre update e delete das tarefas.",
+    "deadLine": "2021-09-27T19:00:00.000+03:00"
+}
+```
+
+> > Retorno do método PUT:
+
+```json
+{
+    "id": 1,
+    "title": "Gravando o quarto vídeo (04 de 06)",
+    "description": "Vídeo sobre update e delete das tarefas.",
+    "deadLine": "2021-09-27T19:00:00.000+03:00"
+    "createdAt": "2021-09-28T21:38:44.329+00:00",
+    "updatedAt": "2021-09-28T21:45:01.896+00:00"
+}
+```
+
+> > Veja que após a atualização da tarefa através do método PUT,
+> > as datas de criação e atualização possuem horários diferentes.
+
+<img target="_blank" alt="" width="500" src="https://github.com/HenriqueMAP/todolistyoutube/blob/master/Aula-4-DELETE-deleteTaskById.png?raw=true">
     <hr>
 </details>
 <details>
@@ -131,13 +197,37 @@
 
 ### Tecnologias
 
-- [x] Maven;
-- [x] Java 11;
-- [x] Spring Boot 2.5.4;
-- [x] H2 Database;
-- [x] Swagger | SpringFox;
-- [x] Heroku;
-- [x] PostgreSQL;
+- [x] [Maven](https://maven.apache.org/guides/getting-started/maven-in-five-minutes.html);
+- [x] [Java 11](https://www.oracle.com/br/java/technologies/javase/jdk11-archive-downloads.html);
+- [x] [Spring Boot 2.5.4](https://spring.io/projects/spring-boot);
+- [x] [H2 Database](https://www.h2database.com/html/main.html);
+- [x] Swagger | [SpringFox](https://springfox.github.io/springfox/);
+- [x] [Heroku](https://devcenter.heroku.com/categories/java-support);
+- [x] [PostgreSQL](https://www.postgresql.org);
+
+<hr>
+
+### Ferramentas
+
+- [x] [Git Bash](https://git-scm.com/downloads);
+- [x] [Postman Desktop](https://www.postman.com);
+
+<hr>
+
+### IDE: IntelliJ IDEA Community Edition
+
+#### Sistema: MacOS Big Sur - Versão 11.6
+
+#### Plugins da IDE
+
+- [Atom Material Icons](https://plugins.jetbrains.com/plugin/10044-atom-material-icons);
+- [Codota AI Autocomplete for Java](https://plugins.jetbrains.com/plugin/7638-codota-ai-autocomplete-for-java-and-javascript);
+- [GitToolBox](https://plugins.jetbrains.com/plugin/7499-gittoolbox);
+- [Material Theme UI](https://plugins.jetbrains.com/plugin/8006-material-theme-ui);
+- [Nyan Progress Bar](https://plugins.jetbrains.com/plugin/8575-nyan-progress-bar);
+- [One Dark Theme](https://plugins.jetbrains.com/plugin/11938-one-dark-theme);
+- [Rainbow Brackets](https://plugins.jetbrains.com/plugin/10080-rainbow-brackets);
+- [Tabnine AI Code Completion](https://plugins.jetbrains.com/plugin/12798-tabnine-ai-code-completion-js-java-python-ts-rust-go-php--more);
 
 <hr>
 
@@ -168,23 +258,6 @@
 - [x] [Foto de capa by Clay Banks | Unsplash - Photos for everyone;](https://unsplash.com/photos/oO6Gm16Cqcg)
 - [x] [Shields.io | Badges Info from Github](https://img.shields.io)
 - [x] [Alexandre Sanlim | Badges Tech](https://github.com/alexandresanlim/Badges4-README.md-Profile)
-
-<hr>
-
-### IDE: IntelliJ IDEA Community Edition
-
-#### Sistema: MacOS Big Sur - Versão 11.6
-
-#### Plugins da IDE
-
-- [Atom Material Icons](https://plugins.jetbrains.com/plugin/10044-atom-material-icons);
-- [Codota AI Autocomplete for Java](https://plugins.jetbrains.com/plugin/7638-codota-ai-autocomplete-for-java-and-javascript);
-- [GitToolBox](https://plugins.jetbrains.com/plugin/7499-gittoolbox);
-- [Material Theme UI](https://plugins.jetbrains.com/plugin/8006-material-theme-ui);
-- [Nyan Progress Bar](https://plugins.jetbrains.com/plugin/8575-nyan-progress-bar);
-- [One Dark Theme](https://plugins.jetbrains.com/plugin/11938-one-dark-theme);
-- [Rainbow Brackets](https://plugins.jetbrains.com/plugin/10080-rainbow-brackets);
-- [Tabnine AI Code Completion](https://plugins.jetbrains.com/plugin/12798-tabnine-ai-code-completion-js-java-python-ts-rust-go-php--more);
 
 <hr>
 
