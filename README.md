@@ -187,7 +187,48 @@
 </details>
 <details>
     <summary> Resumo da vídeo-aula 05</summary>
-    <hr>
+
+> Refatoração: Ao passar uma tarefa utilizando o método POST, é necessário informar o horário.
+> A partir disso, o banco de dados armazena considerando o fuso horário local.
+
+<img target="_blank" alt="" width="500" src="https://github.com/HenriqueMAP/todolistyoutube/blob/master/Aula-5-POST-Task.png?raw=true">
+
+> Envio do método POST
+
+```JSON
+
+{
+    "title": "Gravando o quinto vídeo (05 de 06)",
+    "description": "Vídeo sobre documentação e refatoração do código.",
+    "deadLine": "2021-10-05T19:00:00"
+}
+
+```
+
+> Tarefa armazenada no banco de dados
+
+```JSON
+
+{
+    "id": 1,
+    "title": "Gravando o quinto vídeo (05 de 06)",
+    "description": "Vídeo sobre documentação e refatoração do código.",
+    "deadLine": "2021-10-05T19:00:00",
+    "createdAt": "2021-10-05T19:21:20.731054",
+    "updatedAt": "2021-10-05T19:21:20.73111"
+}
+
+```
+
+> Informações no console
+
+<img target="_blank" alt="" width="500" src="https://github.com/HenriqueMAP/todolistyoutube/blob/master/Aula-5-POST-Informacoes-Console.png?raw=true">
+
+> 2021-10-05 19:21:20.686  INFO 967 --- [nio-8080-exec-4] c.k.t.controller.TaskController          : Criando uma nova tarefa com as informações 
+> [Task(id=null, title=Gravando o quinto vídeo (05 de 06), description=Vídeo sobre documentação e refatoração do código., deadLine=2021-10-05T19:00, createdAt=null, updatedAt=null)]
+
+
+<hr>
 </details>
 <details>
     <summary> Resumo da vídeo-aula 06</summary>
