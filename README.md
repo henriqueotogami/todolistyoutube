@@ -227,6 +227,63 @@
 > 2021-10-05 19:21:20.686  INFO 967 --- [nio-8080-exec-4] c.k.t.controller.TaskController          : Criando uma nova tarefa com as informações 
 > [Task(id=null, title=Gravando o quinto vídeo (05 de 06), description=Vídeo sobre documentação e refatoração do código., deadLine=2021-10-05T19:00, createdAt=null, updatedAt=null)]
 
+> Atualizando a tarefa no banco de dados
+
+<img target="_blank" alt="" width="500" src="https://github.com/HenriqueMAP/todolistyoutube/blob/master/Aula-5-POST-Atualizando-Tarefa.png?raw=true">
+
+> Enviando pelo método PUT
+
+```JSON
+
+{
+    "title": "Atualização: Gravando o quinto vídeo (05 de 06)",
+    "description": "Vídeo sobre documentação e refatoração do código.",
+    "deadLine": "2021-10-05T19:00:00"
+}
+
+```
+
+> Atualização no Banco de dados
+
+```JSON
+
+{
+    "id": 1,
+    "title": "Atualização: Gravando o quinto vídeo (05 de 06)",
+    "description": "Vídeo sobre documentação e refatoração do código.",
+    "deadLine": "2021-10-05T19:00:00",
+    "createdAt": "2021-10-07T18:15:47.463402",
+    "updatedAt": "2021-10-07T18:18:34.990389"
+}
+
+```
+
+> Adicionando as dependências do `Springfox Swagger2` e `Springfox Swagger UI` no arquivo `pom.xml`:
+
+```XML
+<dependency>
+    <groupId>io.springfox</groupId>
+    <artifactId>springfox-swagger-ui</artifactId>
+    <version>2.9.2</version>
+</dependency>
+
+<dependency>
+    <groupId>io.springfox</groupId>
+    <artifactId>springfox-swagger2</artifactId>
+    <version>2.9.2</version>
+</dependency>
+```
+
+> Criar o diretório `docs` no endereço `src/main/java/com/kamilacode/todolistyoutube/`
+> 
+> Criar a classe `SwaggerConfiguration.java` no diretório `docs`.
+>
+> Depois de implementar a classe `src/main/java/com/kamilacode/todolistyoutube/docs/SwaggerConfiguration.java`
+> 
+> Executar a aplicação, e abrir a URL da Documentação no Swagger `http://localhost:8080/swagger-ui.html#/`
+
+<img target="_blank" alt="" width="500" src="https://github.com/HenriqueMAP/todolistyoutube/blob/master/Aula-5-Documentacao-Swagger-UI.png?raw=true">
+
 
 <hr>
 </details>
