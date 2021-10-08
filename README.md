@@ -48,9 +48,9 @@
     <summary> Resumo da vídeo-aula 02</summary>
 <br>
     <div align="center">
-      <img target="_blank" alt="" width="500" src="https://github.com/HenriqueMAP/todolistyoutube/blob/master/Aula-2-Imagem-1.png?raw=true">
-      <img target="_blank" alt="" width="500" src="https://github.com/HenriqueMAP/todolistyoutube/blob/master/Aula-2-Imagem-2.png?raw=true">
-      <img target="_blank" alt="" width="500" src="https://github.com/HenriqueMAP/todolistyoutube/blob/master/Aula-2-Imagem-3.png?raw=true">
+      <img target="_blank" alt="" width="500" src="https://github.com/HenriqueMAP/todolistyoutube/blob/master/src/main/resources/img/Aula-2-Imagem-1.png?raw=true">
+      <img target="_blank" alt="" width="500" src="https://github.com/HenriqueMAP/todolistyoutube/blob/master/src/main/resources/img/Aula-2-Imagem-2.png?raw=true">
+      <img target="_blank" alt="" width="500" src="https://github.com/HenriqueMAP/todolistyoutube/blob/master/src/main/resources/img/Aula-2-Imagem-3.png?raw=true">
     </div>
 <br>
 
@@ -58,7 +58,7 @@
 > 
 > Abrir o endereço `http://localhost:8080/h2-console` no navegador, e inserir o endereço copiado (mencionado acima) no campo JDBC URL, conforme imagem abaixo.
 
-<img target="_blank" alt="" width="500" src="https://github.com/HenriqueMAP/todolistyoutube/blob/master/Aula-2-localhost-8080-h2-console.png?raw=true">
+<img target="_blank" alt="" width="500" src="https://github.com/HenriqueMAP/todolistyoutube/blob/master/src/main/resources/img/Aula-2-localhost-8080-h2-console.png?raw=true">
     <hr>
 </details>
 <details>
@@ -90,28 +90,28 @@
 }
 ```
 
-<img alt="" width="500" src="https://github.com/HenriqueMAP/todolistyoutube/blob/master/Aula-3-Post-Task-Postman-localhost.png?raw=true">
+<img alt="" width="500" src="https://github.com/HenriqueMAP/todolistyoutube/blob/master/src/main/resources/img/Aula-3-Post-Task-Postman-localhost.png?raw=true">
 
 > Simulando erro, omitindo a informação de data no campo `deadLine`:
 
-<img target="_blank" alt="" width="500" src="https://github.com/HenriqueMAP/todolistyoutube/blob/master/Aula-3-Simulando-Erro-500.png?raw=true">
-<img target="_blank" alt="" width="500" src="https://github.com/HenriqueMAP/todolistyoutube/blob/master/Aula-3-Simulando-Erro-500-IntelliJ.png?raw=true">
+<img target="_blank" alt="" width="500" src="https://github.com/HenriqueMAP/todolistyoutube/blob/master/src/main/resources/img/Aula-3-Simulando-Erro-500.png?raw=true">
+<img target="_blank" alt="" width="500" src="https://github.com/HenriqueMAP/todolistyoutube/blob/master/src/main/resources/img/Aula-3-Simulando-Erro-500-IntelliJ.png?raw=true">
 
 > Obtendo todas as tarefas criadas:
 
-<img target="_blank" alt="" width="500" src="https://github.com/HenriqueMAP/todolistyoutube/blob/master/Aula-3-getAllTasks.png?raw=true">
+<img target="_blank" alt="" width="500" src="https://github.com/HenriqueMAP/todolistyoutube/blob/master/src/main/resources/img/Aula-3-getAllTasks.png?raw=true">
 
 > Obtendo tarefa por ID:
 
-<img target="_blank" alt="" width="500" src="https://github.com/HenriqueMAP/todolistyoutube/blob/master/Aula-3-getTaskById.png?raw=true">
+<img target="_blank" alt="" width="500" src="https://github.com/HenriqueMAP/todolistyoutube/blob/master/src/main/resources/img/Aula-3-getTaskById.png?raw=true">
 
 > Buscando todas as tarefas utilizando o `SELECT` na `H2 Database`:
 
-<img target="_blank" alt="" width="500" src="https://github.com/HenriqueMAP/todolistyoutube/blob/master/Aula-3-SELECT-H2-Database-AllTasks.png?raw=true">
+<img target="_blank" alt="" width="500" src="https://github.com/HenriqueMAP/todolistyoutube/blob/master/src/main/resources/img/Aula-3-SELECT-H2-Database-AllTasks.png?raw=true">
 
 > Buscando somente as tarefas por `ID` utilizando o `SELECT` na `H2 Database`:
 
-<img target="_blank" alt="" width="500" src="https://github.com/HenriqueMAP/todolistyoutube/blob/master/Aula-3-SELECT-H2-Database-TaskById.png?raw=true">
+<img target="_blank" alt="" width="500" src="https://github.com/HenriqueMAP/todolistyoutube/blob/master/src/main/resources/img/Aula-3-SELECT-H2-Database-TaskById.png?raw=true">
 
 <hr>
 </details>
@@ -140,7 +140,7 @@
 
 > > DELETE - Para esse método, o comando é vazio e, consequentemente, o retorno também:
 
-<img target="_blank" alt="" width="500" src="https://github.com/HenriqueMAP/todolistyoutube/blob/master/Aula-4-PUT-updateTaskById.png?raw=true">
+<img target="_blank" alt="" width="500" src="https://github.com/HenriqueMAP/todolistyoutube/blob/master/src/main/resources/img/Aula-4-PUT-updateTaskById.png?raw=true">
 
 > PUT - Atualizando o título, a descrição e a data máxima da tarefa no banco de dados:
 > 
@@ -182,17 +182,23 @@
 > > Veja que após a atualização da tarefa através do método PUT,
 > > as datas de criação e atualização possuem horários diferentes.
 
-<img target="_blank" alt="" width="500" src="https://github.com/HenriqueMAP/todolistyoutube/blob/master/Aula-4-DELETE-deleteTaskById.png?raw=true">
+<img target="_blank" alt="" width="500" src="https://github.com/HenriqueMAP/todolistyoutube/blob/master/src/main/resources/img/Aula-4-DELETE-deleteTaskById.png?raw=true">
     <hr>
 </details>
 <details>
     <summary> Resumo da vídeo-aula 05</summary>
 
+<br>
+
+> ### Refatorando o código
+>
 > Refatoração: Ao passar uma tarefa utilizando o método POST, é necessário informar o horário.
 > A partir disso, o banco de dados armazena considerando o fuso horário local.
 
-<img target="_blank" alt="" width="500" src="https://github.com/HenriqueMAP/todolistyoutube/blob/master/Aula-5-POST-Task.png?raw=true">
+<img target="_blank" alt="" width="500" src="https://github.com/HenriqueMAP/todolistyoutube/blob/master/src/main/resources/img/Aula-5-POST-Task.png?raw=true">
 
+> ### JSON
+> 
 > Envio do método POST
 
 ```JSON
@@ -222,14 +228,14 @@
 
 > Informações no console
 
-<img target="_blank" alt="" width="500" src="https://github.com/HenriqueMAP/todolistyoutube/blob/master/Aula-5-POST-Informacoes-Console.png?raw=true">
+<img target="_blank" alt="" width="500" src="https://github.com/HenriqueMAP/todolistyoutube/blob/master/src/main/resources/img/Aula-5-POST-Informacoes-Console.png?raw=true">
 
 > 2021-10-05 19:21:20.686  INFO 967 --- [nio-8080-exec-4] c.k.t.controller.TaskController          : Criando uma nova tarefa com as informações 
 > [Task(id=null, title=Gravando o quinto vídeo (05 de 06), description=Vídeo sobre documentação e refatoração do código., deadLine=2021-10-05T19:00, createdAt=null, updatedAt=null)]
 
 > Atualizando a tarefa no banco de dados
 
-<img target="_blank" alt="" width="500" src="https://github.com/HenriqueMAP/todolistyoutube/blob/master/Aula-5-POST-Atualizando-Tarefa.png?raw=true">
+<img target="_blank" alt="" width="500" src="https://github.com/HenriqueMAP/todolistyoutube/blob/master/src/main/resources/img/Aula-5-POST-Atualizando-Tarefa.png?raw=true">
 
 > Enviando pelo método PUT
 
@@ -258,6 +264,10 @@
 
 ```
 
+<hr>
+
+> ### Adicionando dependências
+>
 > Adicionando as dependências do `Springfox Swagger2` e `Springfox Swagger UI` no arquivo `pom.xml`:
 
 ```XML
@@ -274,6 +284,10 @@
 </dependency>
 ```
 
+<hr>
+
+> ### Documentação
+>
 > Criar o diretório `docs` no endereço `src/main/java/com/kamilacode/todolistyoutube/`
 > 
 > Criar a classe `SwaggerConfiguration.java` no diretório `docs`.
@@ -282,8 +296,37 @@
 > 
 > Executar a aplicação, e abrir a URL da Documentação no Swagger `http://localhost:8080/swagger-ui.html#/`
 
-<img target="_blank" alt="" width="500" src="https://github.com/HenriqueMAP/todolistyoutube/blob/master/Aula-5-Documentacao-Swagger-UI.png?raw=true">
+<img target="_blank" alt="" width="500" src="https://github.com/HenriqueMAP/todolistyoutube/blob/master/src/main/resources/img/Aula-5-Documentacao-Swagger-UI.png?raw=true">
 
+> Gerenciador de Tarefas
+>
+> Task-Controller
+> 
+> Adicionando mensagens para os erros retornados
+
+https://github.com/HenriqueMAP/todolistyoutube/blob/master/src/main/resources/img/Aula-2-Banco-de-Dados.png?raw=true
+
+<img target="_blank" alt="" width="500" src="https://github.com/HenriqueMAP/todolistyoutube/blob/master/src/main/resources/img/Aula-5-Documentacao-Tratamento-Mensagem-Erro.png?raw=true">
+
+> Método: GET | Endereço: /api/v1/tasks | Listando todas as tarefas.
+
+<img target="_blank" alt="" width="500" src="https://github.com/HenriqueMAP/todolistyoutube/blob/master/src/main/resources/img/Aula-5-Documentacao-Tratam-GET-Listando-Tarefas.png?raw=true">
+
+> Método: POST | Endereço: /api/v1/tasks | Criando uma nova tarefa.
+
+<img target="_blank" alt="" width="500" src="https://github.com/HenriqueMAP/todolistyoutube/blob/master/src/main/resources/img/Aula-5-Documentacao-Tratam-POST-Criando-Tarefas.png?raw=true">
+
+> Método: GET | Endereço: /api/v1/tasks/{id} | Buscando uma tarefa pelo identificador único(ID).
+
+<img target="_blank" alt="" width="500" src="https://github.com/HenriqueMAP/todolistyoutube/blob/master/src/main/resources/img/Aula-5-Documentacao-Tratam-GET-Buscando-Tarefa.png?raw=true">
+
+> Método: PUT | Endereço: /api/v1/tasks/{id} | Atualizando uma nova tarefa existente.
+
+<img target="_blank" alt="" width="500" src="https://github.com/HenriqueMAP/todolistyoutube/blob/master/src/main/resources/img/Aula-5-Documentacao-Tratam-PUT-Atualizando-Tarefa.png?raw=true">
+
+> Método: DELETE | Endereço: /api/v1/tasks/{id} | Excluindo uma tarefa existente.
+
+<img target="_blank" alt="" width="500" src="https://github.com/HenriqueMAP/todolistyoutube/blob/master/src/main/resources/img/Aula-5-Documentacao-Tratam-DELETE-Excluindo-Tarefa.png?raw=true">
 
 <hr>
 </details>
