@@ -304,7 +304,6 @@
 > 
 > Adicionando mensagens para os erros retornados
 
-https://github.com/HenriqueMAP/todolistyoutube/blob/master/src/main/resources/img/Aula-2-Banco-de-Dados.png?raw=true
 
 <img target="_blank" alt="" width="500" src="https://github.com/HenriqueMAP/todolistyoutube/blob/master/src/main/resources/img/Aula-5-Documentacao-Tratamento-Mensagem-Erro.png?raw=true">
 
