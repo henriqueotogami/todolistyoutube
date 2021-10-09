@@ -42,32 +42,62 @@
 
 <details>
     <summary> Resumo da vídeo-aula 01</summary>
-    <hr>
+<br>
+
+> Apresentação do projeto através de uma visão panorâmica, mostrando as etapas e tecnologias utilizadas.
+
+<hr>
 </details>
 <details>
     <summary> Resumo da vídeo-aula 02</summary>
 <br>
-    <div align="center">
-      <img target="_blank" alt="" width="500" src="https://github.com/HenriqueMAP/todolistyoutube/blob/master/src/main/resources/img/Aula-2-Imagem-1.png?raw=true">
-      <img target="_blank" alt="" width="500" src="https://github.com/HenriqueMAP/todolistyoutube/blob/master/src/main/resources/img/Aula-2-Imagem-2.png?raw=true">
-      <img target="_blank" alt="" width="500" src="https://github.com/HenriqueMAP/todolistyoutube/blob/master/src/main/resources/img/Aula-2-Imagem-3.png?raw=true">
-    </div>
-<br>
 
-> Após clicar no botão de "Run" na classe "TodolistyoutubeApplication", copiar o endereço URL informado no console `jdbc:h2:mem:todolistyoutube`, conforme imagem 2 mostrada acima.
+> ### Aula 2
+>
+> Após executar a aplicação, o console será aberto, informando que o Spring está funcionando, 
+> qual porta está utilizando, e qual é a URL de acesso.
+
+> Console: Parte 1
+
+<img target="_blank" alt="" width="500" src="https://github.com/HenriqueMAP/todolistyoutube/blob/master/src/main/resources/img/Aula-2-Imagem-1.png?raw=true">
+
+> Console: Parte 2
+
+<img target="_blank" alt="" width="500" src="https://github.com/HenriqueMAP/todolistyoutube/blob/master/src/main/resources/img/Aula-2-Imagem-2.png?raw=true">
+
+> Console: Parte 3
+
+<img target="_blank" alt="" width="500" src="https://github.com/HenriqueMAP/todolistyoutube/blob/master/src/main/resources/img/Aula-2-Imagem-3.png?raw=true">
+
+<hr>
+
+> ### URL de acesso ao H2 Database
 > 
-> Abrir o endereço `http://localhost:8080/h2-console` no navegador, e inserir o endereço copiado (mencionado acima) no campo JDBC URL, conforme imagem abaixo.
+> Com a aplicação executando, após clicar no botão de `Run` na classe `TodolistyoutubeApplication`, 
+> copiar o endereço `URL` informado no console `jdbc:h2:mem:todolistyoutube`, conforme imagem do Console: Parte 2, mostrada acima.
+> 
+> Abrir o endereço `http://localhost:8080/h2-console` no navegador, e inserir o endereço copiado (mencionado acima) no campo `JDBC URL`, 
+> conforme imagem abaixo.
 
 <img target="_blank" alt="" width="500" src="https://github.com/HenriqueMAP/todolistyoutube/blob/master/src/main/resources/img/Aula-2-localhost-8080-h2-console.png?raw=true">
-    <hr>
+<hr>
+
 </details>
 <details>
     <summary> Resumo da vídeo-aula 03</summary>
 <br>
 
-> Utilizando o Postman como plataforma de desenvolvimento de `API`, através da URL `http://localhost:8080/api/v1/tasks`.
+> ### Aula 3
+> 
+> Neste projeto, será utilizado o `Postman` como plataforma de desenvolvimento de `API`, através da URL `http://localhost:8080/api/v1/tasks`.
+
+> ### Método POST
+> 
+> Para criar a primeira tarefa, utilize o método `POST`. 
+> 
+> Após isso, selecione `Body` -> `raw` -> `JSON`, digite o código abaixo e clique no botão `SEND`:
 >
-> Para criar a primeira tarefa, utilize o método `POST`. Após isso, selecione `Body` -> `raw` -> `JSON`, digite o código abaixo e clique no botão `SEND`:
+> ### JSON:
 
 ```json
 {
@@ -77,8 +107,13 @@
 }
 ```
 
-> O valor retornado no console do Postman, através do método `GET`, é mostrado abaixo:
+<hr>
 
+> ### Método GET
+> 
+> O valor retornado no console do `Postman`, através do método `GET`, é mostrado abaixo:
+>
+> ### JSON:
 ```json
 {
     "id": 1,
@@ -92,11 +127,19 @@
 
 <img alt="" width="500" src="https://github.com/HenriqueMAP/todolistyoutube/blob/master/src/main/resources/img/Aula-3-Post-Task-Postman-localhost.png?raw=true">
 
+<hr>
+
+> ### Simulação de erro
+> 
 > Simulando erro, omitindo a informação de data no campo `deadLine`:
 
 <img target="_blank" alt="" width="500" src="https://github.com/HenriqueMAP/todolistyoutube/blob/master/src/main/resources/img/Aula-3-Simulando-Erro-500.png?raw=true">
 <img target="_blank" alt="" width="500" src="https://github.com/HenriqueMAP/todolistyoutube/blob/master/src/main/resources/img/Aula-3-Simulando-Erro-500-IntelliJ.png?raw=true">
 
+<hr>
+
+> ### Método GET
+> 
 > Obtendo todas as tarefas criadas:
 
 <img target="_blank" alt="" width="500" src="https://github.com/HenriqueMAP/todolistyoutube/blob/master/src/main/resources/img/Aula-3-getAllTasks.png?raw=true">
@@ -105,6 +148,10 @@
 
 <img target="_blank" alt="" width="500" src="https://github.com/HenriqueMAP/todolistyoutube/blob/master/src/main/resources/img/Aula-3-getTaskById.png?raw=true">
 
+<hr>
+
+> ### H2 Database: Utilizando SQL
+> 
 > Buscando todas as tarefas utilizando o `SELECT` na `H2 Database`:
 
 <img target="_blank" alt="" width="500" src="https://github.com/HenriqueMAP/todolistyoutube/blob/master/src/main/resources/img/Aula-3-SELECT-H2-Database-AllTasks.png?raw=true">
@@ -114,20 +161,32 @@
 <img target="_blank" alt="" width="500" src="https://github.com/HenriqueMAP/todolistyoutube/blob/master/src/main/resources/img/Aula-3-SELECT-H2-Database-TaskById.png?raw=true">
 
 <hr>
+
 </details>
 <details>
     <summary> Resumo da vídeo-aula 04</summary>
 
+<br>
+
+> ### Aula 4
+> 
 > Realizando a atualização (PUT) e exclusão  (DELETE) de tarefas da nossa aplicação.
 > 
-> Lembrando que é necessário incluir a tarefa no banco de dados a cada atualização do código, 
-> uma vez que o banco de dados atual não mantém o armazenamento das tarefas após ser desligado.
+> Lembrando que é necessário incluir a tarefa no banco de dados a cada atualização do código.
 > 
-> Isso será corrigido nas próximas aulas.
+> Isso é necessário porque o banco de dados atual não mantém o armazenamento das tarefas após ser desligado.
+> 
+> ### TODO:
+> 
+> **Isso será corrigido nas próximas aulas.**
 
-> DELETE - Excluindo a tarefa do banco de dados:
+> ### Método DELETE
+>
+> Excluindo a tarefa do banco de dados.
 > 
-> > POST - Inserindo a tarefa:
+> 1ª Etapa: Método POST - Inserindo a tarefa.
+> 
+> ### JSON:
 
 ```json
 {
@@ -138,13 +197,21 @@
 }
 ```
 
-> > DELETE - Para esse método, o comando é vazio e, consequentemente, o retorno também:
+> 2ª Etapa: DELETE
+> 
+> Para esse método, o comando é vazio e, consequentemente, o retorno também.
 
 <img target="_blank" alt="" width="500" src="https://github.com/HenriqueMAP/todolistyoutube/blob/master/src/main/resources/img/Aula-4-PUT-updateTaskById.png?raw=true">
 
-> PUT - Atualizando o título, a descrição e a data máxima da tarefa no banco de dados:
+<hr>
+
+> ### Método PUT
 > 
-> > POST - Inserindo a tarefa:
+> Atualizando o título, a descrição e a data máxima da tarefa no banco de dados.
+> 
+> 1ª Estapa: POST - Inserindo a tarefa.
+> 
+> ### JSON:
 
 ```json
 {
@@ -155,7 +222,11 @@
 }
 ```
 
-> > PUT - Atualizando a tarefa:
+> 2ª Etapa PUT
+> 
+> Atualizando a tarefa.
+> 
+> ### JSON:
 
 ```json
 {
@@ -166,7 +237,11 @@
 }
 ```
 
-> > Retorno do método PUT:
+> ### Resultado
+> 
+> Retorno do método PUT.
+> 
+> ### JSON:
 
 ```json
 {
@@ -179,11 +254,13 @@
 }
 ```
 
-> > Veja que após a atualização da tarefa através do método PUT,
-> > as datas de criação e atualização possuem horários diferentes.
+> Veja que após a atualização da tarefa através do método PUT,
+> as datas de criação e atualização possuem horários diferentes.
 
 <img target="_blank" alt="" width="500" src="https://github.com/HenriqueMAP/todolistyoutube/blob/master/src/main/resources/img/Aula-4-DELETE-deleteTaskById.png?raw=true">
-    <hr>
+
+<hr>
+
 </details>
 <details>
     <summary> Resumo da vídeo-aula 05</summary>
