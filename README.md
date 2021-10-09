@@ -34,7 +34,7 @@
 - [x] Vídeo-aula 02: [Inicialização do projeto com Spring Initializr e tabela H2 Database;](https://youtu.be/x0QtRR0Gp40)
 - [x] Vídeo-aula 03: [Criando e listando as tarefas (POST e GET);](https://youtu.be/fR1O_U7Wd-c)
 - [x] Vídeo-aula 04: [Editando/atualizando e excluindo as tarefas (PUT e DELETE);](https://youtu.be/jX6LAQQGunY)
-- [x] Vídeo-aula 05: [Documentando a aplicação com o Swagger;]()
+- [x] Vídeo-aula 05: [Documentando a aplicação com o Swagger;](https://youtu.be/WMvaVwgrIFE)
 - [x] Vídeo-aula 06: [Migrando o banco para o PostgreSQL e realizando Deploy no Heroku;]()
 <hr>
 
@@ -61,9 +61,13 @@
 
 <img target="_blank" alt="" width="500" src="https://github.com/HenriqueMAP/todolistyoutube/blob/master/src/main/resources/img/Aula-2-Imagem-1.png?raw=true">
 
+<br>
+
 > Console: Parte 2
 
 <img target="_blank" alt="" width="500" src="https://github.com/HenriqueMAP/todolistyoutube/blob/master/src/main/resources/img/Aula-2-Imagem-2.png?raw=true">
+
+<br>
 
 > Console: Parte 3
 
@@ -101,9 +105,9 @@
 
 ```json
 {
-"title": "Gravando o terceiro vídeo",
-"description":"Vídeo sobre criação e listagem de tarefas.",
-"deadLine": "2021-09-30"
+    "title": "Gravando o terceiro vídeo",
+    "description":"Vídeo sobre criação e listagem de tarefas.",
+    "deadLine": "2021-09-30"
 }
 ```
 
@@ -248,7 +252,7 @@
     "id": 1,
     "title": "Gravando o quarto vídeo (04 de 06)",
     "description": "Vídeo sobre update e delete das tarefas.",
-    "deadLine": "2021-09-27T19:00:00.000+03:00"
+    "deadLine": "2021-09-27T19:00:00.000+03:00",
     "createdAt": "2021-09-28T21:38:44.329+00:00",
     "updatedAt": "2021-09-28T21:45:01.896+00:00"
 }
@@ -348,17 +352,17 @@
 > Adicionando as dependências do `Springfox Swagger2` e `Springfox Swagger UI` no arquivo `pom.xml`:
 
 ```XML
-<dependency>
-    <groupId>io.springfox</groupId>
-    <artifactId>springfox-swagger-ui</artifactId>
-    <version>2.9.2</version>
-</dependency>
-
-<dependency>
-    <groupId>io.springfox</groupId>
-    <artifactId>springfox-swagger2</artifactId>
-    <version>2.9.2</version>
-</dependency>
+    <dependency>
+        <groupId>io.springfox</groupId>
+        <artifactId>springfox-swagger-ui</artifactId>
+        <version>2.9.2</version>
+    </dependency>
+    
+    <dependency>
+        <groupId>io.springfox</groupId>
+        <artifactId>springfox-swagger2</artifactId>
+        <version>2.9.2</version>
+    </dependency>
 ```
 
 <hr>
@@ -418,7 +422,7 @@
 - [x] [Java 11](https://www.oracle.com/br/java/technologies/javase/jdk11-archive-downloads.html);
 - [x] [Spring Boot 2.5.4](https://spring.io/projects/spring-boot);
 - [x] [H2 Database](https://www.h2database.com/html/main.html);
-- [x] Swagger | [SpringFox](https://springfox.github.io/springfox/);
+- [x] [Swagger](https://swagger.io) | [SpringFox](https://springfox.github.io/springfox/);
 - [x] [Heroku](https://devcenter.heroku.com/categories/java-support);
 - [x] [PostgreSQL](https://www.postgresql.org);
 
@@ -458,15 +462,15 @@
 <br>
 
 - [x] Spring Web: 
-> Build web, including RESTFul, applications using Spring MVC. 
-> Uses Apache Tomcat as the default embedded container;
+> Crie aplicativos da web, incluindo RESTFul, usando Spring MVC.
+> Usa Apache Tomcat como o contêiner integrado padrão.;
 - [x] Spring Data JPA:
-> Persist data in SQL stores with Java Persistence API using Spring Data and Hibernate;
+> Persistir dados em armazenamentos SQL com Java Persistence API usando Spring Data e Hibernate.;
 - [x] H2 Database:
-> Provides a fast in-memory database that supports JDBC API and R2DBC access, with a small (2mb)
-> footprint. Supports embedded and server modes as well as a browser based console  application;
+> Fornece um banco de dados na memória rápido que suporta acesso JDBC API e R2DBC, com uma pegada pequena (2 MB).
+> Suporta modos integrados e de servidor, bem como um aplicativo de console baseado em navegador.;
 - [x] Lombok:
-> Java annotation library which helps to reduce bollerplate code.
+> Biblioteca de anotação Java que ajuda a reduzir o código clichê.
 
 <hr>
 
