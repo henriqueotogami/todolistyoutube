@@ -35,7 +35,7 @@
 - [x] Vídeo-aula 03: [Criando e listando as tarefas (POST e GET);](https://youtu.be/fR1O_U7Wd-c)
 - [x] Vídeo-aula 04: [Editando/atualizando e excluindo as tarefas (PUT e DELETE);](https://youtu.be/jX6LAQQGunY)
 - [x] Vídeo-aula 05: [Documentando a aplicação com o Swagger;](https://youtu.be/WMvaVwgrIFE)
-- [x] Vídeo-aula 06: [Migrando o banco para o PostgreSQL e realizando Deploy no Heroku;]()
+- [x] Vídeo-aula 06: [Migrando o banco para o PostgreSQL e realizando Deploy no Heroku;](https://youtu.be/HIQtj5alGnE)
 <hr>
 
 ### Resumos
@@ -412,6 +412,69 @@
 </details>
 <details>
     <summary> Resumo da vídeo-aula 06</summary>
+
+> ### Aula 06
+> 
+> #### Alternando do H2 Database para o PostgreSQL
+> 
+> Adicionando a dependência no arquivo pom.xml
+> 
+> todolistyoutube/pom.xml
+> 
+> #### XML:
+
+```XML
+
+<dependency>
+    <groupId>org.postgresql</groupId>
+    <artifactId>postgresql</artifactId>
+</dependency>
+
+```
+
+> Substituindo as configurações de banco de dados
+> 
+> `src/main/resources/application.properties`
+
+```PROPERTIES
+
+spring.datasource.url=${JDBC_DATASOURCE_URL}
+spring.jpa.show-sql=true
+spring.jpa.generate-ddl=true
+server.port=${PORT:8080}
+
+spring.datasource.driverClassName=org.postgresql.Driver
+spring.datasource.maxActive=10
+spring.datasource.maxIdle=5
+spring.datasource.minIdle=2
+spring.datasource.initialSize=5
+spring.datasource.removeAbandoned=true
+
+```
+
+> Criar o arquivo que informe ao Heroku que esse projeto utiliza a versão 11 do Java.
+> 
+> `todolistyoutube/system.properties`
+> 
+> #### PROPERTIES:
+
+```PROPERTIES
+
+java.runtime.version=11
+
+```
+
+> ### Deploy no Heroku
+> 
+> Para instalar o Heroku: [https://devcenter.heroku.com/articles/heroku-cli](https://devcenter.heroku.com/articles/heroku-cli])
+>
+> 1 - Esteja na branch master, para criar o app no Heroku. Comando no console: `$ heroku create`
+>
+> 2 - Após criar o app, renomeie. Comando no console: `$ heroku apps:rename todolist-kamilacode-hmap`
+>
+> 3 - Link com o nome do app renomeado: [https://todolist-kamilacode-hmap.herokuapp.com/](https://todolist-kamilacode-hmap.herokuapp.com/)
+> 
+> 4 - Enviar a branch master para o Heroku: `$ git push heroku master`
 </details>
 
 <hr>
