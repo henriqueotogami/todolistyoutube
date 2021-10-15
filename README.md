@@ -413,6 +413,8 @@
 <details>
     <summary> Resumo da vídeo-aula 06</summary>
 
+<br>
+
 > ### Aula 06
 > 
 > #### Alternando do H2 Database para o PostgreSQL
@@ -431,6 +433,8 @@
 </dependency>
 
 ```
+
+<br>
 
 > Substituindo as configurações de banco de dados
 > 
@@ -452,6 +456,8 @@ spring.datasource.removeAbandoned=true
 
 ```
 
+<br>
+
 > Criar o arquivo que informe ao Heroku que esse projeto utiliza a versão 11 do Java.
 > 
 > `todolistyoutube/system.properties`
@@ -464,6 +470,8 @@ java.runtime.version=11
 
 ```
 
+<br>
+
 > ### Deploy no Heroku
 > 
 > Para instalar o Heroku: [https://devcenter.heroku.com/articles/heroku-cli](https://devcenter.heroku.com/articles/heroku-cli])
@@ -475,7 +483,8 @@ java.runtime.version=11
 > 3 - Link com o nome do app renomeado: [https://todolist-kamilacode-hmap.herokuapp.com/](https://todolist-kamilacode-hmap.herokuapp.com/)
 > 
 > 4 - Enviar a branch master para o Heroku: `$ git push heroku master`
-> 
+
+<br>
 
 > #### Falha no Deploy
 > 
@@ -483,6 +492,8 @@ java.runtime.version=11
 > todas as minhas tentivas de build no Heroku falharam.
 
 <img target="_blank" alt="" width="500" src="https://github.com/HenriqueMAP/todolistyoutube/blob/master/src/main/resources/img/Aula-6-ERRO-Deploy-Heroku.png?raw=true">
+
+<br>
 
 > #### Solução da falha no Deploy
 > 
@@ -504,6 +515,8 @@ java.runtime.version=11
 
 ```
 
+<br>
+
 > 2 - Adicionada o Encoding UTF-8 em Properties.
 > 
 > ##### XML
@@ -516,15 +529,21 @@ java.runtime.version=11
 
 ```
 
+<br>
+
 > #### BUILD SUCCESS
 > 
 > Após adicionar as configurações descritas acima, utilizei o comando `$ git push heroku master`
 
 <img target="_blank" alt="" width="500" src="https://github.com/HenriqueMAP/todolistyoutube/blob/master/src/main/resources/img/Aula-6-BUILD-SUCCESS-Deploy-Heroku.png?raw=true">
 
+<br>
+
 > Visualizando no terminal os logs: `$ heroku logs --tail`
 
 <img target="_blank" alt="" width="500" src="https://github.com/HenriqueMAP/todolistyoutube/blob/master/src/main/resources/img/Aula-6-Heroku-Logs--tail.png?raw=true">
+
+<br>
 
 > ### Conectando com o banco de dados PostgreSQL
 > 
@@ -532,9 +551,13 @@ java.runtime.version=11
 
 <img target="_blank" alt="" width="500" src="https://github.com/HenriqueMAP/todolistyoutube/blob/master/src/main/resources/img/Aula-6-heroku-addons-create-heroku-postgresql.png?raw=true">
 
+<br>
+
 > Visualizando as variáveis de configuração: `$ heroku config`
 
 <img target="_blank" alt="" width="500" src="https://github.com/HenriqueMAP/todolistyoutube/blob/master/src/main/resources/img/Aula-6-Heroku-Config.png?raw=true">
+
+<br>
 
 > Visualizando as informações do Heroku: `$ heroku pg`
 
