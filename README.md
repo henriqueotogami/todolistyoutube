@@ -475,6 +475,71 @@ java.runtime.version=11
 > 3 - Link com o nome do app renomeado: [https://todolist-kamilacode-hmap.herokuapp.com/](https://todolist-kamilacode-hmap.herokuapp.com/)
 > 
 > 4 - Enviar a branch master para o Heroku: `$ git push heroku master`
+> 
+
+> #### Falha no Deploy
+> 
+> Por alguma razão, que eu não consegui descobrir ainda, mesmo seguindo as etapas do tutorial, 
+> todas as minhas tentivas de build no Heroku falharam.
+
+<img target="_blank" alt="" width="500" src="https://github.com/HenriqueMAP/todolistyoutube/blob/master/src/main/resources/img/Aula-6-ERRO-Deploy-Heroku.png?raw=true">
+
+> #### Solução da falha no Deploy
+> 
+> [Artigo de solução no site ExceptionError](https://exerror.com/failed-to-execute-goal-org-apache-maven-pluginsmaven-resources-plugin3-2-0resources/)
+>
+> Em resumo, adicionei as configurações abaixo.
+> 
+> 1 - Adicionada a versão 3.1.0 do Maven Resources em Plugins;
+> 
+> ##### XML
+
+```XML
+
+<plugin>
+    <groupId>org.apache.maven.plugins</groupId>
+    <artifactId>maven-resources-plugin</artifactId>
+    <version>3.1.0</version>
+</plugin> 
+
+```
+
+> 2 - Adicionada o Encoding UTF-8 em Properties.
+> 
+> ##### XML
+
+```XML
+
+<properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+</properties>
+
+```
+
+> #### BUILD SUCCESS
+> 
+> Após adicionar as configurações descritas acima, utilizei o comando `$ git push heroku master`
+
+<img target="_blank" alt="" width="500" src="https://github.com/HenriqueMAP/todolistyoutube/blob/master/src/main/resources/img/Aula-6-BUILD-SUCCESS-Deploy-Heroku.png?raw=true">
+
+> Visualizando no terminal os logs: `$ heroku logs --tail`
+
+<img target="_blank" alt="" width="500" src="https://github.com/HenriqueMAP/todolistyoutube/blob/master/src/main/resources/img/Aula-6-Heroku-Logs--tail.png?raw=true">
+
+> ### Conectando com o banco de dados PostgreSQL
+> 
+> Utilizando o comando no terminal: `$ heroku addons:create heroku-postgresql`
+
+<img target="_blank" alt="" width="500" src="https://github.com/HenriqueMAP/todolistyoutube/blob/master/src/main/resources/img/Aula-6-heroku-addons-create-heroku-postgresql.png?raw=true">
+
+> Visualizando as variáveis de configuração: `$ heroku config`
+
+<img target="_blank" alt="" width="500" src="https://github.com/HenriqueMAP/todolistyoutube/blob/master/src/main/resources/img/Aula-6-Heroku-Config.png?raw=true">
+
+> Visualizando as informações do Heroku: `$ heroku pg`
+
+<img target="_blank" alt="" width="500" src="https://github.com/HenriqueMAP/todolistyoutube/blob/master/src/main/resources/img/Aula-6-Heroku-PG.png?raw=true">
+
 </details>
 
 <hr>
