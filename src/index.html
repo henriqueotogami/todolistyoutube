@@ -207,68 +207,79 @@
       </section>
 
       <section class="list">
-        <div class="box">
-          <p>Watch movies, play games and study math</p>
+        <form action="/api/v1/tasks" id="create-task" method="POST">
+          <fieldset>
+            <div class="box-task">
+              <label for="title-task">Title Task</label>
+              <input type="text" name="title-task" id="title-task" placeholder="Watch TV Series" required>
+
+              <label for="description-task">Description Task</label>
+              <input type="text" name="description-task" id="description-task" placeholder="Watch Ted Lasso when I'm at home. " required>
+
+              <label for="deadLine-task">Deadline Task</label>
+              <input type="datetime-local" name="deadline-task" id="deadline-task" placeholder="01-11-2021T19:00:00">
+            </div>
+          </fieldset>
+        </form>
 
           <div class="boxButtons">
             <div class="done">
-              <button>
+              <button type="submit" form="create-task">
                 <svg
-                  width="31"
-                  height="31"
-                  viewBox="0 0 31 31"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
+                        width="31"
+                        height="31"
+                        viewBox="0 0 31 31"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
                 >
                   <path
-                    d="M29.83 15.415C29.83 23.3762 23.3762 29.83 15.415 29.83C7.45382 29.83 1 23.3762 1 15.415C1 7.45382 7.45382 1 15.415 1C23.3762 1 29.83 7.45382 29.83 15.415Z"
-                    stroke="black"
-                    stroke-width="2"
+                          d="M29.83 15.415C29.83 23.3762 23.3762 29.83 15.415 29.83C7.45382 29.83 1 23.3762 1 15.415C1 7.45382 7.45382 1 15.415 1C23.3762 1 29.83 7.45382 29.83 15.415Z"
+                          stroke="black"
+                          stroke-width="2"
                   />
                   <path
-                    d="M21.4756 11.5L13.2256 19.75L9.47559 16"
-                    stroke="black"
-                    stroke-width="2"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
+                          d="M21.4756 11.5L13.2256 19.75L9.47559 16"
+                          stroke="black"
+                          stroke-width="2"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
                   />
                 </svg>
               </button>
             </div>
 
             <div class="notDone">
-              <button>
+              <button type="reset" form="create-task">
                 <svg
-                  width="31"
-                  height="31"
-                  viewBox="0 0 31 31"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
+                        width="31"
+                        height="31"
+                        viewBox="0 0 31 31"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
                 >
                   <path
-                    d="M29.83 15.415C29.83 23.3762 23.3762 29.83 15.415 29.83C7.45382 29.83 1 23.3762 1 15.415C1 7.45382 7.45382 1 15.415 1C23.3762 1 29.83 7.45382 29.83 15.415Z"
-                    stroke="black"
-                    stroke-width="2"
+                          d="M29.83 15.415C29.83 23.3762 23.3762 29.83 15.415 29.83C7.45382 29.83 1 23.3762 1 15.415C1 7.45382 7.45382 1 15.415 1C23.3762 1 29.83 7.45382 29.83 15.415Z"
+                          stroke="black"
+                          stroke-width="2"
                   />
                   <path
-                    d="M19.75 11.25L11.25 19.75"
-                    stroke="black"
-                    stroke-width="2"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
+                          d="M19.75 11.25L11.25 19.75"
+                          stroke="black"
+                          stroke-width="2"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
                   />
                   <path
-                    d="M11.25 11.25L19.75 19.75"
-                    stroke="black"
-                    stroke-width="2"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
+                          d="M11.25 11.25L19.75 19.75"
+                          stroke="black"
+                          stroke-width="2"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
                   />
                 </svg>
               </button>
             </div>
           </div>
-        </div>
       </section>
     </main>
   </body>
