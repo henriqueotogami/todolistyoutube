@@ -2,7 +2,7 @@
 
 ## Projeto To Do List by [@Kamila Code](https://github.com/Kamilahsantos/)
 
-#### Início: 07-09-2021 — Em andamento
+#### Início: 07-09-2021 — 15-10-2021
 
 #### [Repositório do projeto original](https://github.com/Kamilahsantos/serie-todo-list-youtube)
 
@@ -10,6 +10,10 @@
 <br>
 <div align="center">
 <img width="500" src="https://github.com/HenriqueMAP/todolistyoutube/blob/master/JAVA-Cover.png?raw=true">
+</div>
+<br>
+<div align="center">
+<img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/henriquemap/todolistyoutube">
 </div>
 <br>
 <div align="center">
