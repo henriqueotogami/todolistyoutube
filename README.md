@@ -9,18 +9,18 @@
 </div>
 <br>
 <div align="center">
-<img width="500" src="https://github.com/HenriqueMAP/todolistyoutube/blob/master/JAVA-Cover.png?raw=true">
+<img width="500" src="https://github.com/henriqueotogami/todolistyoutube/blob/master/JAVA-Cover.png?raw=true">
 </div>
 <br>
 <div align="center">
-<img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/henriquemap/todolistyoutube">
+<img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/henriqueotogami/todolistyoutube">
 </div>
 <br>
 <div align="center">
-<img src="https://img.shields.io/github/issues/HenriqueMAP/todolistyoutube">
-<img src="https://img.shields.io/github/forks/HenriqueMAP/todolistyoutube">
-<img src="https://img.shields.io/github/stars/HenriqueMAP/todolistyoutube">
-<img src="https://img.shields.io/github/license/HenriqueMAP/todolistyoutube">
+<img src="https://img.shields.io/github/issues/henriqueotogami/todolistyoutube">
+<img src="https://img.shields.io/github/forks/henriqueotogami/todolistyoutube">
+<img src="https://img.shields.io/github/stars/henriqueotogami/todolistyoutube">
+<img src="https://img.shields.io/github/license/henriqueotogami/todolistyoutube">
 </div>
 <br>
 
@@ -63,19 +63,19 @@
 
 > Console: Parte 1
 
-<img target="_blank" alt="" width="500" src="https://github.com/HenriqueMAP/todolistyoutube/blob/master/src/main/resources/img/Aula-2-Imagem-1.png?raw=true">
+<img target="_blank" alt="" width="500" src="https://github.com/henriqueotogami/todolistyoutube/blob/master/src/main/resources/img/Aula-2-Imagem-1.png?raw=true">
 
 <br>
 
 > Console: Parte 2
 
-<img target="_blank" alt="" width="500" src="https://github.com/HenriqueMAP/todolistyoutube/blob/master/src/main/resources/img/Aula-2-Imagem-2.png?raw=true">
+<img target="_blank" alt="" width="500" src="https://github.com/henriqueotogami/todolistyoutube/blob/master/src/main/resources/img/Aula-2-Imagem-2.png?raw=true">
 
 <br>
 
 > Console: Parte 3
 
-<img target="_blank" alt="" width="500" src="https://github.com/HenriqueMAP/todolistyoutube/blob/master/src/main/resources/img/Aula-2-Imagem-3.png?raw=true">
+<img target="_blank" alt="" width="500" src="https://github.com/henriqueotogami/todolistyoutube/blob/master/src/main/resources/img/Aula-2-Imagem-3.png?raw=true">
 
 <hr>
 
@@ -87,7 +87,7 @@
 > Abrir o endereço `http://localhost:8080/h2-console` no navegador, e inserir o endereço copiado (mencionado acima) no campo `JDBC URL`, 
 > conforme imagem abaixo.
 
-<img target="_blank" alt="" width="500" src="https://github.com/HenriqueMAP/todolistyoutube/blob/master/src/main/resources/img/Aula-2-localhost-8080-h2-console.png?raw=true">
+<img target="_blank" alt="" width="500" src="https://github.com/henriqueotogami/todolistyoutube/blob/master/src/main/resources/img/Aula-2-localhost-8080-h2-console.png?raw=true">
 <hr>
 
 </details>
@@ -133,7 +133,7 @@
 }
 ```
 
-<img alt="" width="500" src="https://github.com/HenriqueMAP/todolistyoutube/blob/master/src/main/resources/img/Aula-3-Post-Task-Postman-localhost.png?raw=true">
+<img alt="" width="500" src="https://github.com/henriqueotogami/todolistyoutube/blob/master/src/main/resources/img/Aula-3-Post-Task-Postman-localhost.png?raw=true">
 
 <hr>
 
@@ -141,8 +141,8 @@
 > 
 > Simulando erro, omitindo a informação de data no campo `deadLine`:
 
-<img target="_blank" alt="" width="500" src="https://github.com/HenriqueMAP/todolistyoutube/blob/master/src/main/resources/img/Aula-3-Simulando-Erro-500.png?raw=true">
-<img target="_blank" alt="" width="500" src="https://github.com/HenriqueMAP/todolistyoutube/blob/master/src/main/resources/img/Aula-3-Simulando-Erro-500-IntelliJ.png?raw=true">
+<img target="_blank" alt="" width="500" src="https://github.com/henriqueotogami/todolistyoutube/blob/master/src/main/resources/img/Aula-3-Simulando-Erro-500.png?raw=true">
+<img target="_blank" alt="" width="500" src="https://github.com/henriqueotogami/todolistyoutube/blob/master/src/main/resources/img/Aula-3-Simulando-Erro-500-IntelliJ.png?raw=true">
 
 <hr>
 
@@ -150,11 +150,11 @@
 > 
 > Obtendo todas as tarefas criadas:
 
-<img target="_blank" alt="" width="500" src="https://github.com/HenriqueMAP/todolistyoutube/blob/master/src/main/resources/img/Aula-3-getAllTasks.png?raw=true">
+<img target="_blank" alt="" width="500" src="https://github.com/henriqueotogami/todolistyoutube/blob/master/src/main/resources/img/Aula-3-getAllTasks.png?raw=true">
 
 > Obtendo tarefa por ID:
 
-<img target="_blank" alt="" width="500" src="https://github.com/HenriqueMAP/todolistyoutube/blob/master/src/main/resources/img/Aula-3-getTaskById.png?raw=true">
+<img target="_blank" alt="" width="500" src="https://github.com/henriqueotogami/todolistyoutube/blob/master/src/main/resources/img/Aula-3-getTaskById.png?raw=true">
 
 <hr>
 
@@ -162,11 +162,11 @@
 > 
 > Buscando todas as tarefas utilizando o `SELECT` na `H2 Database`:
 
-<img target="_blank" alt="" width="500" src="https://github.com/HenriqueMAP/todolistyoutube/blob/master/src/main/resources/img/Aula-3-SELECT-H2-Database-AllTasks.png?raw=true">
+<img target="_blank" alt="" width="500" src="https://github.com/henriqueotogami/todolistyoutube/blob/master/src/main/resources/img/Aula-3-SELECT-H2-Database-AllTasks.png?raw=true">
 
 > Buscando somente as tarefas por `ID` utilizando o `SELECT` na `H2 Database`:
 
-<img target="_blank" alt="" width="500" src="https://github.com/HenriqueMAP/todolistyoutube/blob/master/src/main/resources/img/Aula-3-SELECT-H2-Database-TaskById.png?raw=true">
+<img target="_blank" alt="" width="500" src="https://github.com/henriqueotogami/todolistyoutube/blob/master/src/main/resources/img/Aula-3-SELECT-H2-Database-TaskById.png?raw=true">
 
 <hr>
 
@@ -209,7 +209,7 @@
 > 
 > Para esse método, o comando é vazio e, consequentemente, o retorno também.
 
-<img target="_blank" alt="" width="500" src="https://github.com/HenriqueMAP/todolistyoutube/blob/master/src/main/resources/img/Aula-4-PUT-updateTaskById.png?raw=true">
+<img target="_blank" alt="" width="500" src="https://github.com/henriqueotogami/todolistyoutube/blob/master/src/main/resources/img/Aula-4-PUT-updateTaskById.png?raw=true">
 
 <hr>
 
@@ -265,7 +265,7 @@
 > Veja que após a atualização da tarefa através do método PUT,
 > as datas de criação e atualização possuem horários diferentes.
 
-<img target="_blank" alt="" width="500" src="https://github.com/HenriqueMAP/todolistyoutube/blob/master/src/main/resources/img/Aula-4-DELETE-deleteTaskById.png?raw=true">
+<img target="_blank" alt="" width="500" src="https://github.com/henriqueotogami/todolistyoutube/blob/master/src/main/resources/img/Aula-4-DELETE-deleteTaskById.png?raw=true">
 
 <hr>
 
@@ -280,7 +280,7 @@
 > Refatoração: Ao passar uma tarefa utilizando o método POST, é necessário informar o horário.
 > A partir disso, o banco de dados armazena considerando o fuso horário local.
 
-<img target="_blank" alt="" width="500" src="https://github.com/HenriqueMAP/todolistyoutube/blob/master/src/main/resources/img/Aula-5-POST-Task.png?raw=true">
+<img target="_blank" alt="" width="500" src="https://github.com/henriqueotogami/todolistyoutube/blob/master/src/main/resources/img/Aula-5-POST-Task.png?raw=true">
 
 > ### JSON
 > 
@@ -313,14 +313,14 @@
 
 > Informações no console
 
-<img target="_blank" alt="" width="500" src="https://github.com/HenriqueMAP/todolistyoutube/blob/master/src/main/resources/img/Aula-5-POST-Informacoes-Console.png?raw=true">
+<img target="_blank" alt="" width="500" src="https://github.com/henriqueotogami/todolistyoutube/blob/master/src/main/resources/img/Aula-5-POST-Informacoes-Console.png?raw=true">
 
 > 2021-10-05 19:21:20.686  INFO 967 --- [nio-8080-exec-4] c.k.t.controller.TaskController          : Criando uma nova tarefa com as informações 
 > [Task(id=null, title=Gravando o quinto vídeo (05 de 06), description=Vídeo sobre documentação e refatoração do código., deadLine=2021-10-05T19:00, createdAt=null, updatedAt=null)]
 
 > Atualizando a tarefa no banco de dados
 
-<img target="_blank" alt="" width="500" src="https://github.com/HenriqueMAP/todolistyoutube/blob/master/src/main/resources/img/Aula-5-POST-Atualizando-Tarefa.png?raw=true">
+<img target="_blank" alt="" width="500" src="https://github.com/henriqueotogami/todolistyoutube/blob/master/src/main/resources/img/Aula-5-POST-Atualizando-Tarefa.png?raw=true">
 
 > Enviando pelo método PUT
 
@@ -381,7 +381,7 @@
 > 
 > Executar a aplicação, e abrir a URL da Documentação no Swagger `http://localhost:8080/swagger-ui.html#/`
 
-<img target="_blank" alt="" width="500" src="https://github.com/HenriqueMAP/todolistyoutube/blob/master/src/main/resources/img/Aula-5-Documentacao-Swagger-UI.png?raw=true">
+<img target="_blank" alt="" width="500" src="https://github.com/henriqueotogami/todolistyoutube/blob/master/src/main/resources/img/Aula-5-Documentacao-Swagger-UI.png?raw=true">
 
 > Gerenciador de Tarefas
 >
@@ -390,27 +390,27 @@
 > Adicionando mensagens para os erros retornados
 
 
-<img target="_blank" alt="" width="500" src="https://github.com/HenriqueMAP/todolistyoutube/blob/master/src/main/resources/img/Aula-5-Documentacao-Tratamento-Mensagem-Erro.png?raw=true">
+<img target="_blank" alt="" width="500" src="https://github.com/henriqueotogami/todolistyoutube/blob/master/src/main/resources/img/Aula-5-Documentacao-Tratamento-Mensagem-Erro.png?raw=true">
 
 > Método: GET | Endereço: /api/v1/tasks | Listando todas as tarefas.
 
-<img target="_blank" alt="" width="500" src="https://github.com/HenriqueMAP/todolistyoutube/blob/master/src/main/resources/img/Aula-5-Documentacao-Tratam-GET-Listando-Tarefas.png?raw=true">
+<img target="_blank" alt="" width="500" src="https://github.com/henriqueotogami/todolistyoutube/blob/master/src/main/resources/img/Aula-5-Documentacao-Tratam-GET-Listando-Tarefas.png?raw=true">
 
 > Método: POST | Endereço: /api/v1/tasks | Criando uma nova tarefa.
 
-<img target="_blank" alt="" width="500" src="https://github.com/HenriqueMAP/todolistyoutube/blob/master/src/main/resources/img/Aula-5-Documentacao-Tratam-POST-Criando-Tarefas.png?raw=true">
+<img target="_blank" alt="" width="500" src="https://github.com/henriqueotogami/todolistyoutube/blob/master/src/main/resources/img/Aula-5-Documentacao-Tratam-POST-Criando-Tarefas.png?raw=true">
 
 > Método: GET | Endereço: /api/v1/tasks/{id} | Buscando uma tarefa pelo identificador único(ID).
 
-<img target="_blank" alt="" width="500" src="https://github.com/HenriqueMAP/todolistyoutube/blob/master/src/main/resources/img/Aula-5-Documentacao-Tratam-GET-Buscando-Tarefa.png?raw=true">
+<img target="_blank" alt="" width="500" src="https://github.com/henriqueotogami/todolistyoutube/blob/master/src/main/resources/img/Aula-5-Documentacao-Tratam-GET-Buscando-Tarefa.png?raw=true">
 
 > Método: PUT | Endereço: /api/v1/tasks/{id} | Atualizando uma nova tarefa existente.
 
-<img target="_blank" alt="" width="500" src="https://github.com/HenriqueMAP/todolistyoutube/blob/master/src/main/resources/img/Aula-5-Documentacao-Tratam-PUT-Atualizando-Tarefa.png?raw=true">
+<img target="_blank" alt="" width="500" src="https://github.com/henriqueotogami/todolistyoutube/blob/master/src/main/resources/img/Aula-5-Documentacao-Tratam-PUT-Atualizando-Tarefa.png?raw=true">
 
 > Método: DELETE | Endereço: /api/v1/tasks/{id} | Excluindo uma tarefa existente.
 
-<img target="_blank" alt="" width="500" src="https://github.com/HenriqueMAP/todolistyoutube/blob/master/src/main/resources/img/Aula-5-Documentacao-Tratam-DELETE-Excluindo-Tarefa.png?raw=true">
+<img target="_blank" alt="" width="500" src="https://github.com/henriqueotogami/todolistyoutube/blob/master/src/main/resources/img/Aula-5-Documentacao-Tratam-DELETE-Excluindo-Tarefa.png?raw=true">
 
 <hr>
 </details>
@@ -495,7 +495,7 @@ java.runtime.version=11
 > Por alguma razão, que eu não consegui descobrir ainda, mesmo seguindo as etapas do tutorial, 
 > todas as minhas tentivas de build no Heroku falharam.
 
-<img target="_blank" alt="" width="500" src="https://github.com/HenriqueMAP/todolistyoutube/blob/master/src/main/resources/img/Aula-6-ERRO-Deploy-Heroku.png?raw=true">
+<img target="_blank" alt="" width="500" src="https://github.com/henriqueotogami/todolistyoutube/blob/master/src/main/resources/img/Aula-6-ERRO-Deploy-Heroku.png?raw=true">
 
 <br>
 
@@ -539,13 +539,13 @@ java.runtime.version=11
 > 
 > Após adicionar as configurações descritas acima, utilizei o comando `$ git push heroku master`
 
-<img target="_blank" alt="" width="500" src="https://github.com/HenriqueMAP/todolistyoutube/blob/master/src/main/resources/img/Aula-6-BUILD-SUCCESS-Deploy-Heroku.png?raw=true">
+<img target="_blank" alt="" width="500" src="https://github.com/henriqueotogami/todolistyoutube/blob/master/src/main/resources/img/Aula-6-BUILD-SUCCESS-Deploy-Heroku.png?raw=true">
 
 <br>
 
 > Visualizando no terminal os logs: `$ heroku logs --tail`
 
-<img target="_blank" alt="" width="500" src="https://github.com/HenriqueMAP/todolistyoutube/blob/master/src/main/resources/img/Aula-6-Heroku-Logs--tail.png?raw=true">
+<img target="_blank" alt="" width="500" src="https://github.com/henriqueotogami/todolistyoutube/blob/master/src/main/resources/img/Aula-6-Heroku-Logs--tail.png?raw=true">
 
 <br>
 
@@ -553,19 +553,19 @@ java.runtime.version=11
 > 
 > Utilizando o comando no terminal: `$ heroku addons:create heroku-postgresql`
 
-<img target="_blank" alt="" width="500" src="https://github.com/HenriqueMAP/todolistyoutube/blob/master/src/main/resources/img/Aula-6-heroku-addons-create-heroku-postgresql.png?raw=true">
+<img target="_blank" alt="" width="500" src="https://github.com/henriqueotogami/todolistyoutube/blob/master/src/main/resources/img/Aula-6-heroku-addons-create-heroku-postgresql.png?raw=true">
 
 <br>
 
 > Visualizando as variáveis de configuração: `$ heroku config`
 
-<img target="_blank" alt="" width="500" src="https://github.com/HenriqueMAP/todolistyoutube/blob/master/src/main/resources/img/Aula-6-Heroku-Config.png?raw=true">
+<img target="_blank" alt="" width="500" src="https://github.com/henriqueotogami/todolistyoutube/blob/master/src/main/resources/img/Aula-6-Heroku-Config.png?raw=true">
 
 <br>
 
 > Visualizando as informações do Heroku: `$ heroku pg`
 
-<img target="_blank" alt="" width="500" src="https://github.com/HenriqueMAP/todolistyoutube/blob/master/src/main/resources/img/Aula-6-Heroku-PG.png?raw=true">
+<img target="_blank" alt="" width="500" src="https://github.com/henriqueotogami/todolistyoutube/blob/master/src/main/resources/img/Aula-6-Heroku-PG.png?raw=true">
 
 </details>
 
@@ -612,7 +612,7 @@ java.runtime.version=11
 > As dependências listadas abaixo são obtidas a partir do site [Spring Initializr](https://start.spring.io).
 
 <div align="center">
-<img target="_blank" width="auto" src="https://github.com/HenriqueMAP/todolistyoutube/blob/master/Spring-initializr.png?raw=true">
+<img target="_blank" width="auto" src="https://github.com/henriqueotogami/todolistyoutube/blob/master/Spring-initializr.png?raw=true">
 </div>
 <br>
 
@@ -639,7 +639,7 @@ java.runtime.version=11
 
 > ### Caso você queira ajudar a melhorar este repositório, qualquer ajuda é bem vinda.
 
-- [x] Faça um **fork** deste repositório (https://github.com/HenriqueMAP/todolistyoutube/fork);
+- [x] Faça um **fork** deste repositório (https://github.com/henriqueotogami/todolistyoutube/fork);
 - [x] Crie um **branch** com as suas modificações ` git checkout -b meu-novo-recurso `;
 - [x] Faça um **commit** ` git commit -am 'Adicionando um novo recurso ...'`;
 - [x] Faça um **push** ` git push origin meu-novo-recurso ` ;
