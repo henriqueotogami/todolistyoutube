@@ -627,6 +627,23 @@ java.runtime.version=11
 - [x] Lombok:
 > Biblioteca de anotação Java que ajuda a reduzir o código clichê.
 
+<br>
+
+## 📝 Leia meus artigos
+
+### [Artigos no Medium](https://medium.com/@henriqueotogami)
+### [Artigos no Dev.to](https://dev.to/henriqueotogami)
+
+<br>
+
+## 💼 Conecte-se comigo
+### [Perfil no LinkedIn](https://www.linkedin.com/in/henrique-matheus-alves-pereira)
+
+<br>
+
+## 🙏🏻 Apoie meu conteúdo
+### [Compre-me um cafézinho | Buy me a coffee](https://ko-fi.com/henriqueotogami) ☕
+
 <hr>
 
 ### Créditos
