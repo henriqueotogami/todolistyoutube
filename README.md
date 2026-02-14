@@ -24,13 +24,119 @@
 </div>
 <br>
 
-### Descrição
+## 📋 Sobre o Projeto
 
-> Esse projeto consiste em desenvolver uma aplicação semelhante a uma To-Do List (lista de tarefas).
-> Nela será possível cadastrar tarefas, listar tarefas, buscar tarefas pelo ID, além de editar e excluir tarefas (CRUD).
+Este projeto é uma **API REST de To-Do List** (lista de tarefas), desenvolvida com Spring Boot. Permite cadastrar, listar, buscar por ID, editar e excluir tarefas (CRUD completo). O repositório acompanha a série de vídeo-aulas da [Kamila Code](https://github.com/Kamilahsantos/).
 
-> CRUD (Create, Read, Update, Delete) é um acrônimo para as maneiras de se operar em informação armazenada. 
-> É um mnemônico para as quatro operações básicas de armazenamento persistente.
+**CRUD** (Create, Read, Update, Delete) é um acrônimo para as quatro operações básicas de armazenamento persistente.
+
+## 📁 Estrutura do Projeto
+
+### Camada de API (`controller/`)
+- **TaskController.java** — Endpoints REST para tarefas (POST, GET, PUT, DELETE)
+
+### Regras de negócio (`service/`)
+- **TaskService.java** — Serviço de criação, listagem, atualização e exclusão de tarefas
+
+### Modelo e persistência (`model/` e `repository/`)
+- **Task.java** — Entidade JPA (id, title, description, deadLine, createdAt, updatedAt)
+- **TaskRepository.java** — Repositório Spring Data JPA para acesso ao banco
+
+### Documentação (`docs/`)
+- **SwaggerConfiguration.java** — Configuração do Swagger/OpenAPI para documentação da API
+
+## 📂 Estrutura do repositório
+
+```
+README.md
+LICENSE
+pom.xml
+system.properties
+src/main/java/com/kamilacode/todolistyoutube/
+  TodolistyoutubeApplication.java   # aplicação Spring Boot
+  controller/
+    TaskController.java             # API REST de tarefas
+  service/
+    TaskService.java                # lógica de negócio
+  model/
+    Task.java                       # entidade Task
+  repository/
+    TaskRepository.java             # acesso a dados
+  docs/
+    SwaggerConfiguration.java       # configuração Swagger
+src/main/resources/
+  application.properties            # configuração H2/PostgreSQL
+src/test/java/.../TodolistyoutubeApplicationTests.java
+```
+
+## 🛠️ Tecnologias Utilizadas
+
+- **Java 11** — Linguagem de programação
+- **Spring Boot 2.5.4** — Framework (Web, Data JPA)
+- **H2 Database** — Banco em memória (desenvolvimento)
+- **PostgreSQL** — Banco de dados (produção/Heroku)
+- **Swagger (SpringFox)** — Documentação da API
+- **Lombok** — Redução de boilerplate
+- **Maven** — Build e dependências
+
+## 📝 Funcionalidades Principais
+
+- **CRUD de tarefas**: criar, listar, buscar por ID, atualizar e excluir
+- **API REST**: base path `api/v1`, endpoints em `/tasks` e `/tasks/{id}`
+- **Documentação interativa**: Swagger UI em `http://localhost:8080/swagger-ui.html`
+- **Persistência**: suporte a H2 (memória) e PostgreSQL (produção)
+
+## 🚀 Como Executar
+
+### Pré-requisitos
+- Java 11 e Maven instalados
+
+### Execução local (Maven)
+
+```bash
+# Clonar o repositório
+git clone https://github.com/henriqueotogami/todolistyoutube.git
+cd todolistyoutube
+
+# Compilar e executar
+./mvnw spring-boot:run
+# ou: mvn spring-boot:run
+```
+
+A API estará em `http://localhost:8080`. Para usar o H2 em desenvolvimento, ajuste `application.properties` (descomente as configurações H2 e comente as do PostgreSQL).
+
+### Acesso à documentação
+- **Swagger UI**: http://localhost:8080/swagger-ui.html
+- **H2 Console** (se H2 estiver ativo): http://localhost:8080/h2-console
+
+### Deploy no Heroku
+- Configurar variáveis `JDBC_DATASOURCE_URL` e `PORT` no Heroku
+- `git push heroku master` (ver detalhes no resumo da vídeo-aula 06)
+
+## 📚 Conteúdos Abordados
+
+- ✅ API REST com Spring MVC
+- ✅ CRUD completo (Create, Read, Update, Delete)
+- ✅ Spring Data JPA e Hibernate
+- ✅ Bancos H2 e PostgreSQL
+- ✅ Documentação com Swagger
+- ✅ Deploy no Heroku
+
+## ⚙️ Como funciona
+
+1. **Criar tarefa (POST)** — Envio de JSON com `title`, `description` e `deadLine` para `POST /api/v1/tasks`.
+2. **Listar tarefas (GET)** — `GET /api/v1/tasks` retorna todas as tarefas.
+3. **Buscar por ID (GET)** — `GET /api/v1/tasks/{id}` retorna uma tarefa.
+4. **Atualizar (PUT)** — `PUT /api/v1/tasks/{id}` atualiza título, descrição e data.
+5. **Excluir (DELETE)** — `DELETE /api/v1/tasks/{id}` remove a tarefa.
+
+Os dados são persistidos via JPA (H2 ou PostgreSQL). O Swagger descreve todos os endpoints e permite testar a API pelo navegador.
+
+## 📄 Licença
+
+Este projeto está licenciado sob a **MIT License**. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+
+---
 
 ### Sumário
 
@@ -643,6 +749,26 @@ java.runtime.version=11
 
 ## 🙏🏻 Apoie meu conteúdo
 ### [Compre-me um cafézinho | Buy me a coffee](https://ko-fi.com/henriqueotogami) ☕
+
+<hr>
+
+## 📖 Referências
+
+- [Repositório do projeto original (série To-Do List)](https://github.com/Kamilahsantos/serie-todo-list-youtube)
+- Código-fonte em `src/main/java/com/kamilacode/todolistyoutube/` — API REST com Spring Boot
+- Documentação da API disponível em `/swagger-ui.html` com a aplicação em execução
+
+---
+
+### Hashtags
+#Java #SpringBoot #RESTAPI #TodoList #CRUD #JPA #H2 #PostgreSQL #Swagger #Maven #OpenSource #GitHub #LearningByDoing #Backend
+
+### Meta Keywords
+```
+Java, Spring Boot, API REST, To-Do List, CRUD, JPA, Hibernate, H2 Database, 
+PostgreSQL, Swagger, Maven, lista de tarefas, backend, vídeo-aula, Kamila Code,
+documentação API, deploy Heroku, código exemplo, código aberto
+```
 
 <hr>
 
